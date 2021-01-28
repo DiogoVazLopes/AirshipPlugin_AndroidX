@@ -35,6 +35,7 @@ dependencies {
 }
 
 ext.cdvCompileSdkVersion = 29
+ext.cdvBuildToolsVersion = "29.0.2"
 
 // For CI only. Verify our plugin is Java 6 compatible
 if (project.hasProperty('uaInternalJava6CompileOptions') && uaInternalJava6CompileOptions.toBoolean()) {
